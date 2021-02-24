@@ -1,0 +1,31 @@
+.container {
+  height: 200px;
+  padding-right: 13px;
+  padding-left: 13px;
+  background-color: #00F;
+  margin-top: 13px;
+}
+.container_row {
+  height: 100%;
+  margin-left: -13px;
+  margin-right: -13px;
+  background-color: #055;
+}
+.content {
+	height: 100%;
+  background-color: #555;
+}
+.flex_row {
+  margin-left: -13px;
+  margin-right: -13px;
+}
+.flex_item, .flex_item_auto, .flex_item_1, .flex_item_2, .flex_item_3, .flex_item_4, .flex_item_5, .flex_item_6, .flex_item_7, .flex_item_8, .flex_item_9, .flex_item_10, .flex_item_11, .flex_item_12 {
+	height: 100%;
+  padding: 0 13px;
+	background-color: #DDD;
+}
+.content_block {
+	width: 100%;
+	height: 100%;
+	background-color: #5A5;
+}

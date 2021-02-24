@@ -1,0 +1,114 @@
+@media (min-width: 1200px) {/*0,625*/
+
+	.navbar {
+	  max-width: 1200px;
+	  max-height: 116px;
+		margin-left: 73px;
+		margin-right: -31px;
+	  flex-wrap: nowrap;
+	  align-items: flex-start;
+	}
+	.logo {
+		display: inline-block;
+		width: 88px;
+		height: 103px;
+		padding-top: 28px;
+		text-align: center;
+		background-color: #0077B7;
+		border-radius: 0 0 4px 4px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.35);
+	}
+
+	.topmenu_block {
+	  margin-left: auto;
+	}
+	.topmenu_block ul {
+	  list-style: none;
+	}
+	.topmenu_menu {
+	  justify-content: flex-end;
+	  -ms-align-items: flex-start;
+	  align-items: flex-start;
+	}
+	.topmenu_menu li {
+		position: relative;
+	  padding-left: 9px;
+	  word-spacing: -0.2em;
+	}
+	.topmenu_menu>li.sub::before {
+		content: "";
+		display: block;
+		position: absolute;
+	  bottom: 0;
+	  left: 9px;
+		width: 7.5px;
+		height: 16px;
+	  background: #8eb6cf;
+	  border-radius: 3px;
+	  transition: .3s;
+	  transition-delay: .2s;
+	}
+	.topmenu_menu>li:hover::before {
+	  border-radius: 3px 3px 0  0;
+	}
+	.topmenu_menu li a {
+	  display: block;
+	  padding: 31px 19px 0;
+	  font-size: 16px;
+	  font-weight: 500;
+	  line-height: normal;
+	  color: #000;
+	  transform: scaleY(1.15);
+	  transition: .2s;
+	}
+	.topmenu_menu li a:hover {
+	  color: #0085D5;
+	}
+	.topmenu_menu li a:target {
+	  transition: .8s ease-in-out;
+	}
+	.topmenu_menu>li>a:not(:last-child) {
+		width: 150px;
+		max-width: 150px;
+	}
+	.topmenu_menu .tel {
+	  color: #0085D5;
+	  font-weight: 600;
+	}
+	.topmenu_submenu {
+		position: absolute;
+	  transform: scaleY(0);
+	  transform-origin: 0 0;
+	  transition: .3s;
+	}
+	.topmenu_submenu::before {
+		content: "";
+		display: block;
+		position: absolute;
+	  top: -6px;
+		left: 0;
+		width: 7.5px;
+		height: calc(100% + 6px);
+	  background: #8eb6cf;
+	  border-radius: 3px;
+	}
+	.topmenu_submenu>li {
+		white-space:nowrap;
+		word-spacing: 3px;
+	}
+	.topmenu_submenu li a {
+	  padding: 15px 0 15px 22px;
+	  font-size: 14px;
+	}
+	.topmenu_submenu li:first-child a {
+	  padding-top: 29px;
+	}
+	.topmenu_submenu li:last-child a {
+	  padding-bottom: 0;
+	}
+	.topmenu_menu li:hover .topmenu_submenu {
+	  opacity: 1;
+	  transform: scaleY(1);
+	}
+
+}

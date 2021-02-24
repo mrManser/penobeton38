@@ -1,0 +1,16 @@
+
+header {
+  background-color: #0AF9;
+}
+section {
+  background-color: #0FA9;
+}
+div {
+	background-color: #7a393a;
+}
+
+.container, .container_stretch {
+	background-color: #ffbf47DD;
+	height: 100%;
+}
+
